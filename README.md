@@ -1,6 +1,6 @@
 # Privacy Policy: Time Tracker - Offline
 
-**Effective date: 2026-11-07**
+**Effective date: 2026-11-23**
 
 Time Tracker - Offline is an offline time-tracking application published by
 nawki for the Microsoft Store.
@@ -57,11 +57,33 @@ review page.
 
 If you unlock Pro with a license key instead, the key is verified entirely on
 your device using cryptography built into the app. No network request is made
-on that path at all. A copy of the key is kept at
+on that path at all. A key for one PC is also compared with that PC's code
+(see Buying a license key directly), on your device. A copy of the key is kept at
 `Documents\Time Tracker\license.json` so it survives resetting or reinstalling
 the app. That file holds the key, a random identifier for this install and the
 date the app was first used. It contains no time-tracking data. Deleting it is
 safe.
+
+## Buying a license key directly
+
+For a PC that cannot buy through the Microsoft Store, for example a work PC
+whose settings block personal Microsoft accounts, you can buy Pro from the
+developer as a license key instead. Such a key works on one PC.
+
+To make the key, the developer needs that PC's code. The app shows it in
+Settings > Plan, under I have a license key. The code is worked out on your
+device from the identifier Windows gives its installation, scrambled so that
+it cannot be turned back into that identifier and means nothing outside Time
+Tracker. The app never sends it anywhere: you send it yourself, by email, if
+you decide to buy a key.
+
+You pay on a payment page run by the payment provider named on that page,
+under its own terms. The developer does not see your card details. For a key
+bought this way, the developer keeps your email address, the PC's code and the
+payment reference, to answer support questions and to replace the key if you
+change PCs, for as long as the key may need support and as long as records of
+the sale must be kept by law. You can ask what is kept about you, or ask for
+it to be deleted where the law allows, at the address under Contact.
 
 ## Data storage
 
@@ -144,3 +166,7 @@ Version 1.2.0 removed voice quick add, so the app no longer uses the
 microphone. This text now also lists each time the Microsoft Store is asked
 about Pro, where settings and the app's own copies are kept, what the
 feedback email contains, and what Leave a review opens.
+
+Version 1.2.2 adds license keys for one PC, bought directly from the
+developer. This text now also explains the PC's code and what the developer
+keeps for such a purchase (Buying a license key directly).
